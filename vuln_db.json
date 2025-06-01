@@ -1,0 +1,29 @@
+[
+  {
+    "mac_prefix": "00:1A:2B",
+    "manufacturer": "Cisco Systems",
+    "device_type": "Router",
+    "name": "Remote Code Execution Vulnerability",
+    "severity": "High",
+    "description": "A vulnerability that allows attackers to execute code remotely by exploiting a weakness in the management interface.",
+    "solution": "Update firmware to version 15.2(4)M6 or later, and disable internet access to the management interface."
+  },
+  {
+    "mac_prefix": "00:1B:63",
+    "manufacturer": "Axis Communications",
+    "device_type": "Security Camera",
+    "name": "Authentication Bypass Vulnerability",
+    "severity": "Medium",
+    "description": "A vulnerability that allows attackers to bypass authentication and gain access to the live video feed.",
+    "solution": "Upgrade the firmware to version 7.11.2 or higher, and change the default passwords."
+  },
+  {
+    "mac_prefix": "00:0C:29",
+    "manufacturer": "VMware, Inc.",
+    "device_type": "Virtual Network Adapter",
+    "name": "Information Disclosure Vulnerability",
+    "severity": "Low",
+    "description": "A vulnerability that could allow an attacker to obtain sensitive information from the system.",
+    "solution": "Update VMware Tools to the latest version and apply security patches."
+  }
+]
